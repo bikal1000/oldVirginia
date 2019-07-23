@@ -1,0 +1,565 @@
+@font-face {
+    font-family: 'Campton';
+    src: url('../fonts/Campton-SemiBold.woff2') format('woff2'),
+        url('../fonts/Campton-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../fonts/Campton-Medium.woff2') format('woff2'),
+        url('../fonts/Campton-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Campton Book';
+    src: url('../fonts/Campton-Book.woff2') format('woff2'),
+        url('../fonts/Campton-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik XX Cond Web';
+    src: url('../fonts/GraphikXXCondWeb-Bold.woff2') format('woff2'),
+        url('../fonts/GraphikXXCondWeb-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../fonts/Campton-Light.woff2') format('woff2'),
+        url('../fonts/Campton-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('../fonts/GraphikArabic-Semibold.woff2') format('woff2'),
+        url('../fonts/GraphikArabic-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('../fonts/BrownStd-Bold.woff2') format('woff2'),
+        url('../fonts/BrownStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('../fonts/BrownStd-BoldItalic.woff2') format('woff2'),
+        url('../fonts/BrownStd-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('../fonts/GraphikArabic-Regular.woff2') format('woff2'),
+        url('../fonts/GraphikArabic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-Thin.woff2') format('woff2'),
+        url('../fonts/Graphik-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Graphik-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Graphik-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('../fonts/BrownStd-ThinItalic.woff2') format('woff2'),
+        url('../fonts/BrownStd-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd Thin Reclining';
+    src: url('../fonts/BrownStd-ReclinThin.woff2') format('woff2'),
+        url('../fonts/BrownStd-ReclinThin.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('../fonts/BrownStd-Light.woff2') format('woff2'),
+        url('../fonts/BrownStd-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-Black.woff2') format('woff2'),
+        url('../fonts/Graphik-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('../fonts/GraphikArabic-Black.woff2') format('woff2'),
+        url('../fonts/GraphikArabic-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-SemiboldItalic.woff2') format('woff2'),
+        url('../fonts/Graphik-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-Extralight.woff2') format('woff2'),
+        url('../fonts/Graphik-Extralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-RegularItalic.woff2') format('woff2'),
+        url('../fonts/Graphik-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd Light Reclining';
+    src: url('../fonts/BrownStd-ReclinLight.woff2') format('woff2'),
+        url('../fonts/BrownStd-ReclinLight.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-SuperItalic.woff2') format('woff2'),
+        url('../fonts/Graphik-SuperItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd Reclining';
+    src: url('../fonts/BrownStd-ReclinBold.woff2') format('woff2'),
+        url('../fonts/BrownStd-ReclinBold.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-Light.woff2') format('woff2'),
+        url('../fonts/Graphik-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Graphik-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-Regular.woff2') format('woff2'),
+        url('../fonts/Graphik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-Super.woff2') format('woff2'),
+        url('../fonts/Graphik-Super.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-Semibold.woff2') format('woff2'),
+        url('../fonts/Graphik-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('../fonts/BrownStd-Thin.woff2') format('woff2'),
+        url('../fonts/BrownStd-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('../fonts/BrownStd-Italic.woff2') format('woff2'),
+        url('../fonts/BrownStd-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('../fonts/BrownStd-LightItalic.woff2') format('woff2'),
+        url('../fonts/BrownStd-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-Bold.woff2') format('woff2'),
+        url('../fonts/Graphik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-ExtralightItalic.woff2') format('woff2'),
+        url('../fonts/Graphik-ExtralightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-LightItalic.woff2') format('woff2'),
+        url('../fonts/Graphik-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Graphik-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd Reclining';
+    src: url('../fonts/BrownStd-ReclinRegular.woff2') format('woff2'),
+        url('../fonts/BrownStd-ReclinRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('../fonts/BrownStd-Regular.woff2') format('woff2'),
+        url('../fonts/BrownStd-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik-Medium.woff2') format('woff2'),
+        url('../fonts/Graphik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+ body, div, h1, h2, h3, h4, h5, h6, p, input, ul, li, a, section, form, table, td, tr, tbody, select, label, figure {
+	margin: 0px;
+	padding: 0px;
+}
+ :root {
+	--orange:#e25524;
+	--dark-blue:#303e48;
+	--Bgrey:#efeae2;
+	--oddBlack:#5a5347; 
+	--brown:#28170d;
+	--Tgrey:#a6a29d;
+}
+ h1{
+	font-size: 44px;
+	font-family: 'BrownStd';
+    font-weight: 700;
+}
+ h2{
+	font-size: 36px;
+	font-weight: 700;
+	font-family: 'BrownStd';
+}
+ h3{
+	font-size: 31px;
+	font-weight: 700;
+	font-family: 'BrownStd';
+}
+h4{
+	font-size: 26px;
+	font-weight: 700;
+	font-family: 'BrownStd';
+}
+p{
+	font-size: 16px;
+    font-family: 'Campton';
+	line-height: 1.6;
+	font-weight: 300;
+}
+
+ a:hover, a:focus {
+	text-decoration: none;
+}
+ a {
+	color: inherit;
+}
+ *{
+	box-sizing: border-box;
+}
+ ul>li,
+ li {
+	list-style: none;
+}
+ label{
+	margin-bottom: .5rem;
+}
+ .wholepage{
+	width: 100%;
+	overflow: hidden;
+	font-weight: 400;
+    font-family: 'Campton';
+    font-weight: 300;
+	min-height: 100%;
+}
+
+/*********************************************
+**********HEADER*********/
+#header{
+	padding: 30px 0;
+}
+.companyLogo img{
+	max-width: 228px;
+	max-height: 77px;
+	object-position: center;
+}
+.headerContact{
+	text-align: center;
+}
+.headerContact i{
+	color: var(--orange);
+	transform: rotate(180deg);
+}
+.headerContact span{
+	color: #756e65;
+	font-weight: 500;
+	font-size: 14px;
+	padding-left: 8px;
+}
+.headerContact strong{
+	font-size: 16px;
+	font-weight: 600;
+	color: #524441;
+}
+.nav-menu li{
+	font-weight: 400;
+	color: var(--Tgrey);
+}
+.nav-menu li:not(:first-child){
+	padding-left: 25px;
+}
+.nav-menu li a:hover{
+	color: var(--Tgrey);
+}
+
+/****************************************
+****************HOME BANENER SECTION*/
+.homeBannerSection{
+    position: relative;
+  	min-height: 100vh;
+    color: #fff;
+    z-index: 1;
+    font-size: 22px;
+}
+.homebgImg,
+.homebgImg img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.homebgImg img{
+	object-position: bottom;
+	object-fit: cover;
+}
+.secnav-menu{
+	display: flex;
+	align-items: center;
+}
+.secnav-menu li{
+	font-size: 16px;
+	font-weight: 400;
+    font-family: 'BrownStd';
+}
+.secnav-menu li:not(:first-child){
+	padding-left: 25px;
+}
+.secnav-menu li a:hover{
+	color: #fff;
+}
+.secnav-menu li i{
+	color: #f89422
+}
+.navigationContent{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+.homeIcon{
+	color: var(--orange);
+}
+.homeBannerContainer{
+	border-top: 1px solid #fff;
+	text-align: center;
+	padding: 150px 0; 
+}
+.homeBannerContainer span{
+	font-size: 20px;
+}
+.selfBtn{
+  background-color: var(--orange);
+  display: inline-block;
+  width: 283px;
+  height: 64px;
+  z-index: 41;
+  line-height: 64px;
+  border-radius:30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.selfBtn:hover{
+	color: #fff;
+}
+.selfBtn i{
+	padding-left: 60px;
+}
+
+/****************************************
+**************nvcContent*/
+.mainContent{
+	background: var(--Bgrey);
+}
+.nvcContent{
+	padding: 50px 0; 
+	text-align: center;
+}
+.nvcContent h2{
+	color: var(--orange);
+}
+.nvcContent span{
+	color: var(--dark-blue) ;
+}
+.nvcContent p{
+	font-size: 18px;
+	color: #5a5347;
+}
+
+/**************************************
+*******white section*/
+.whiteContainer{
+	background: #fff;
+	max-height: 500px;
+}
+.whiteTextContent{
+	padding: 73px 73px 0 73px;
+}
+.whiteTextContent h3{
+	color: var(--dark-blue);
+	margin-bottom: 15px;
+}
+.whiteTextContent span{
+	color: var(--orange);
+}
+.whiteTextContent p{
+	margin-bottom: 15px;
+	color: var(--oddBlack);
+	font-size: 16px;
+}
+.whiteImageSection{
+	padding-top: 45px;
+}
+.buldImage img{
+	object-fit: cover;
+	object-position: center;
+	max-height: 650px;
+    width: 556px;
+}
+.singleImageSection{
+	padding-top: 143px;
+}
+.singleImage img{
+	object-position: center;
+	object-fit: cover;
+	max-height: 343px;
+	width:570px;
+}
+/*.singleImageContainer{
+	max-width: 1029px;
+}*/
+/*****************************
+********BROWN SECTION*/
+.brownSection{
+	color: #fff;
+	padding-left: 50px;
+	margin-top: -50px;
+}
+.brownSectionContents{
+	padding: 152px;
+	background: url('../images/logoBack.png') no-repeat var(--brown);
+}
+.brownTopPart{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.featureContent h4{
+	padding-bottom:25px;
+}
+.featureContent p,
+.brownTopPart p{
+	color: #d5c3b9;
+}

@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'Campton';
+    src: url('Campton-SemiBold.woff2') format('woff2'),
+        url('Campton-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('Campton-Medium.woff2') format('woff2'),
+        url('Campton-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Campton Book';
+    src: url('Campton-Book.woff2') format('woff2'),
+        url('Campton-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik XX Cond Web';
+    src: url('GraphikXXCondWeb-Bold.woff2') format('woff2'),
+        url('GraphikXXCondWeb-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('Campton-Light.woff2') format('woff2'),
+        url('Campton-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('GraphikArabic-Semibold.woff2') format('woff2'),
+        url('GraphikArabic-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('BrownStd-Bold.woff2') format('woff2'),
+        url('BrownStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('BrownStd-BoldItalic.woff2') format('woff2'),
+        url('BrownStd-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('GraphikArabic-Regular.woff2') format('woff2'),
+        url('GraphikArabic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Thin.woff2') format('woff2'),
+        url('Graphik-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-BoldItalic.woff2') format('woff2'),
+        url('Graphik-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-MediumItalic.woff2') format('woff2'),
+        url('Graphik-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('BrownStd-ThinItalic.woff2') format('woff2'),
+        url('BrownStd-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd Thin Reclining';
+    src: url('BrownStd-ReclinThin.woff2') format('woff2'),
+        url('BrownStd-ReclinThin.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('BrownStd-Light.woff2') format('woff2'),
+        url('BrownStd-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Black.woff2') format('woff2'),
+        url('Graphik-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('GraphikArabic-Black.woff2') format('woff2'),
+        url('GraphikArabic-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-SemiboldItalic.woff2') format('woff2'),
+        url('Graphik-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Extralight.woff2') format('woff2'),
+        url('Graphik-Extralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-RegularItalic.woff2') format('woff2'),
+        url('Graphik-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd Light Reclining';
+    src: url('BrownStd-ReclinLight.woff2') format('woff2'),
+        url('BrownStd-ReclinLight.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-SuperItalic.woff2') format('woff2'),
+        url('Graphik-SuperItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd Reclining';
+    src: url('BrownStd-ReclinBold.woff2') format('woff2'),
+        url('BrownStd-ReclinBold.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Light.woff2') format('woff2'),
+        url('Graphik-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-ThinItalic.woff2') format('woff2'),
+        url('Graphik-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Regular.woff2') format('woff2'),
+        url('Graphik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Super.woff2') format('woff2'),
+        url('Graphik-Super.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Semibold.woff2') format('woff2'),
+        url('Graphik-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('BrownStd-Thin.woff2') format('woff2'),
+        url('BrownStd-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('BrownStd-Italic.woff2') format('woff2'),
+        url('BrownStd-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('BrownStd-LightItalic.woff2') format('woff2'),
+        url('BrownStd-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Bold.woff2') format('woff2'),
+        url('Graphik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-ExtralightItalic.woff2') format('woff2'),
+        url('Graphik-ExtralightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-LightItalic.woff2') format('woff2'),
+        url('Graphik-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-BlackItalic.woff2') format('woff2'),
+        url('Graphik-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd Reclining';
+    src: url('BrownStd-ReclinRegular.woff2') format('woff2'),
+        url('BrownStd-ReclinRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('BrownStd-Regular.woff2') format('woff2'),
+        url('BrownStd-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Medium.woff2') format('woff2'),
+        url('Graphik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
