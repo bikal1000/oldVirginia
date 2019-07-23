@@ -19,7 +19,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <figure class="companyLogo">
-                            <img src="images/logo_text.svg" alt="Company Logo">
+                           <a href="index.html"><img src="images/logo_text.svg" alt="Company Logo"></a>
                         </figure>
                     </div>
                     <div class="col-md-3">
@@ -42,7 +42,7 @@
                                 <ul class="navbar-nav ml-auto nav-menu">
                                     <li class="active"><a href="index.html">TECHNICAL BRIEFS</a></li>
                                     <li><a href="#">ABOUT US</a></li>
-                                    <li><a href="#">CONTACT US</a></li>
+                                    <li><a href="contact.html">CONTACT US</a></li>
                                     <li><a href="#">MEDIA</a></li>
                                 </ul>
                             </div>
@@ -180,17 +180,39 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="naviLinks">
-                                    <ul>
-                                        <li><a href="#">01 <span>About Us</span></a> </li>
-                                        <li><a href="#">01 <span>Our History</span></a> </li>
-                                        <li><a href="#">01 <span>Our Goals</span></a> </li>
+                                    <ul class="nav nav-pills tab-buttons mytab_btn">
+                                        <li class="active">
+                                            <a class=" show" data-toggle="pill" href="#about">01<span></span>About Us</a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="pill" href="#history">02<span></span>Our History</a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="pill" href="#goals">03<span></span>Our Goals</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="featureContent">
-                                    <h4>LivingSpace© Sunrooms provide high-quality, year-round outdoor living at the most affordable rates.</h4>
-                                    <p>We had the pleasure of working with NOVA to install a beautiful fence on our new property. The process was simple and clear. Once under agreement, the installation team was on time, friendly, and asked questions to ensure the job was done to our liking. NOVA is a great company and we will certainly reach out to them for any future projects.r </p>
+                                <div class="tab-content selftabe-content">
+                                    <div id="about" class="tab-pane in active">
+                                        <div class="featureContent">
+                                            <h4>LivingSpace© Sunrooms provide high-quality, year-round outdoor living at the most affordable rates.</h4>
+                                            <p>We had the pleasure of working with NOVA to install a beautiful fence on our new property. The process was simple and clear. Once under agreement, the installation team was on time, friendly, and asked questions to ensure the job was done to our liking. NOVA is a great company and we will certainly reach out to them for any future projects.r </p>
+                                        </div>
+                                    </div>
+                                    <div id="history" class="tab-pane in">
+                                        <div class="featureContent">
+                                            <h4>LivingSpace© Sunroomssasdads provide high-quality, year-round outdoor living at the most affordable rates.</h4>
+                                            <p>We had the pleasure of working with NOVA to install a beautiful fence on our new property. The process was simple and clear. Once under agreement, the installation team was on time, friendly, and asked questions to ensure the job was done to our liking. NOVA is a great company and we will certainly reach out to them for any future projects.r </p>
+                                        </div>
+                                    </div>
+                                    <div id="goals" class="tab-pane in">
+                                        <div class="featureContent">
+                                            <h4>LivingSpace© Sunrooms provide high-quality, year-round outdoor living at the most affordable rates.</h4>
+                                            <p>We had the pleasure of working with NOVA to install a beautiful fence on our new property. The process was simple and clear. Once under agreement, the installation team was on time, friendly, and asked questions to ensure the job was done to our liking. NOVA is a great company and we will certainly reach out to them for any future projects.r </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -199,12 +221,12 @@
             </div>
             <div class="gallerySection">
                 <div class="container">
-                    <h3>Gallery</h3>
+                    <h2>Gallery</h2>
                     <div class="row">
                         <div class="col-md-5">
-                            <div class="iframeWrapper">
-                                <iframe class="galleryIframe" src="images/gallery1.png"></iframe>
-                            </div>
+                            <figure class="galaryImageBig">
+                                <img src="images/gallery1.png">
+                            </figure>
                         </div>
                         <div class="col-md-7">
                             <div class="galleryWrapper">
@@ -223,19 +245,19 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div class="iframeWrapper">
-                                            <iframe class="galleryIframe" src="images/gallery2.png"></iframe>
-                                        </div>
+                                        <figure class="galaryImage">
+                                            <img src="images/gallery2.png">
+                                        </figure>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="iframeWrapper">
-                                            <iframe class="galleryIframe" src="images/gallery2.png"></iframe>
-                                        </div>
+                                        <figure class="galaryImage">
+                                            <img src="images/gallery3.png">
+                                        </figure>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="iframeWrapper">
-                                            <iframe class="galleryIframe" src="images/gallery3.png"></iframe>
-                                        </div>
+                                        <figure class="galaryImage">
+                                            <img src="images/gallery4.png">
+                                        </figure>
                                     </div>
                                 </div>
                             </div>
@@ -244,37 +266,82 @@
                 </div>
             </div>
             <div class="testimonialSection">
-                <div class="row">
-                    <div class="col-md-4">
+                <div class="container">
+                    <h2>Testimonials</h2>
+                </div>
+                <div class="carousel">
+                    <div>
                         <div class="testimonialContent">
                             <figure class="testimpnialImg">
                                 <img src="images/testimonial.png" alt="testimonial">
                             </figure>
                             <div class="testimonialText">
+                                <span>❜❜</span>
                                 <p>Residential and commercial construction is performed by our licensed and experienced Virginia professional contractors</p>
                             </div>
                             <h5 class="tesName">ALASTAIR MACGREGOR</h5>
                             <h5 class="tesPost">URBAN JOURNEY</h5>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div>
                         <div class="testimonialContent">
                             <figure class="testimpnialImg">
                                 <img src="images/testimonial.png" alt="testimonial">
                             </figure>
                             <div class="testimonialText">
+                                <span>❜❜</span>
                                 <p>Residential and commercial construction is performed by our licensed and experienced Virginia professional contractors</p>
                             </div>
                             <h5 class="tesName">ALASTAIR MACGREGOR</h5>
                             <h5 class="tesPost">URBAN JOURNEY</h5>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div>
                         <div class="testimonialContent">
                             <figure class="testimpnialImg">
                                 <img src="images/testimonial.png" alt="testimonial">
                             </figure>
                             <div class="testimonialText">
+                                <span>❜❜</span>
+                                <p>Residential and commercial construction is performed by our licensed and experienced Virginia professional contractors</p>
+                            </div>
+                            <h5 class="tesName">ALASTAIR MACGREGOR</h5>
+                            <h5 class="tesPost">URBAN JOURNEY</h5>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="testimonialContent">
+                            <figure class="testimpnialImg">
+                                <img src="images/testimonial.png" alt="testimonial">
+                            </figure>
+                            <div class="testimonialText">
+                                <span>❜❜</span>
+                                <p>Residential and commercial construction is performed by our licensed and experienced Virginia professional contractors</p>
+                            </div>
+                            <h5 class="tesName">ALASTAIR MACGREGOR</h5>
+                            <h5 class="tesPost">URBAN JOURNEY</h5>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="testimonialContent">
+                            <figure class="testimpnialImg">
+                                <img src="images/testimonial.png" alt="testimonial">
+                            </figure>
+                            <div class="testimonialText">
+                                <span>❜❜</span>
+                                <p>Residential and commercial construction is performed by our licensed and experienced Virginia professional contractors</p>
+                            </div>
+                            <h5 class="tesName">ALASTAIR MACGREGOR</h5>
+                            <h5 class="tesPost">URBAN JOURNEY</h5>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="testimonialContent">
+                            <figure class="testimpnialImg">
+                                <img src="images/testimonial.png" alt="testimonial">
+                            </figure>
+                            <div class="testimonialText">
+                                <span>❜❜</span>
                                 <p>Residential and commercial construction is performed by our licensed and experienced Virginia professional contractors</p>
                             </div>
                             <h5 class="tesName">ALASTAIR MACGREGOR</h5>
@@ -282,39 +349,39 @@
                         </div>
                     </div>
                 </div>
-                <div class="navArrows">
-                    <span class="leftArrow"><i class="fas fa-arrow-left"></i></span>
-                    <span class="rightArrow"><i class="fas fa-arrow-right"></i></span>
-                </div>
+                <button type="button" class="slick-prev">Previous</button>
+                <button type="button" class="slick-next">Next</button>
             </div>
             <div class="contactSection">
                 <div class="contactContents">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4">
-                                <h2>Get in Touch</h2>
-                                <p>With either a natural rusted look or galvanised steel you can rest assured you'll find what you're looking for.</p>
+                                <div class="contactTextWrap">
+                                    <h2>Get in Touch</h2>
+                                    <p>With either a natural rusted look or galvanised steel you can rest assured you'll find what you're looking for.</p>
+                                </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="contactForm">
                                     <form method="" action="">
                                         <div class="formControl">
-                                            <input type="text" name="name" placeholder="Name *" required="">
+                                            <input type="text" name="name" placeholder="NAME *" required="">
                                             <i class="far fa-user"></i>
                                         </div>
                                         <div class="formControl">
-                                            <input type="email" name="email" placeholder="E-Mail * " required="">
+                                            <input type="email" name="email" placeholder="E-MAIL * " required="">
                                             <i class="far fa-envelope"></i>
                                         </div>
                                         <div class="formControl">
-                                            <input type="text" name="subject" placeholder="Subject * " required="">
+                                            <input type="text" name="subject" placeholder="SUBJECT * " required="">
                                             <i class="far fa-comment"></i>
                                         </div>
                                         <div class="formControl">
                                             <textarea placeholder="YOUR MESSAGE"></textarea>
                                         </div>
                                         <div class="sendBtn">
-                                            <input class="selfBn" type="submit" name="submit"><i class="fas fa-chevron-right"></i>
+                                            <button class="selfBtn sendUpBtn">Send Up</button><i class="fas fa-chevron-right"></i>
                                         </div>
                                     </form>
                                 </div>
@@ -324,129 +391,144 @@
                 </div>
             </div>
             <div class="orangeSection">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="orangeContent">
-                                <h6>FREE EXPRESS QUOTE</h6>
-                                <span>Lay plans for the perfect project</span>
+                <div class="orangeContents">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="orangeContent">
+                                    <h6>FREE EXPRESS QUOTE</h6>
+                                    <span>Lay plans for the perfect project</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="orangeContent">
-                                <h6>Licensed No. VA</h6>
-                                <span>Lay plans for the perfect project</span>
+                            <div class="col-md-4">
+                                <div class="orangeContent">
+                                    <h6>Licensed No. VA</h6>
+                                    <span>Lay plans for the perfect project</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="orangeContent">
-                                <h6>Licensed Service & Support</h6>
-                                <span>Lay plans for the perfect project</span>
+                            <div class="col-md-4">
+                                <div class="orangeContent">
+                                    <h6>Licensed Service & Support</h6>
+                                    <span>Lay plans for the perfect project</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer id="footer">
-            <div class="footerSection">
-                <div class="container">
-                    <div class="footerUpper">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="footerWrapper">
-                                    <h6>CONSTRUCTION</h6>
-                                    <ul>
-                                        <li><a href="#">Popular</a></li>
-                                        <li><a href="#">Gratics</a></li>
-                                        <li><a href="#">Line Items</a></li>
-                                        <li><a href="#">Gratics</a></li>
-                                        <li><a href="#">Line Items</a></li>
-                                        <li><a href="#">Gratics</a></li>
-                                    </ul>
-                                </div>
+    </div>
+    <footer id="footer">
+        <div class="footerSection">
+            <div class="container">
+                <div class="footerUpper">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="footerWrapper">
+                                <h6>CONSTRUCTION</h6>
+                                <ul>
+                                    <li><a href="#">Popular</a></li>
+                                    <li><a href="#">Gratics</a></li>
+                                    <li><a href="#">Line Items</a></li>
+                                    <li><a href="#">Gratics</a></li>
+                                    <li><a href="#">Line Items</a></li>
+                                    <li><a href="#">Gratics</a></li>
+                                </ul>
                             </div>
-                            <div class="col-md-3">
-                                <div class="footerWrapper">
-                                    <h6>CONTRACTORS</h6>
-                                    <ul>
-                                        <li><a href="#">Popular</a></li>
-                                        <li><a href="#">Gratics</a></li>
-                                        <li><a href="#">Line Items</a></li>
-                                        <li><a href="#">Gratics</a></li>
-                                    </ul>
-                                </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="footerWrapper">
+                                <h6>CONTRACTORS</h6>
+                                <ul>
+                                    <li><a href="#">Popular</a></li>
+                                    <li><a href="#">Gratics</a></li>
+                                    <li><a href="#">Line Items</a></li>
+                                    <li><a href="#">Gratics</a></li>
+                                </ul>
                             </div>
-                            <div class="col-md-3">
-                                <div class="footerWrapper">
+                        </div>
+                        <div class="col-md-3">
+                            <div class="footerWrapper">
+                                <h6>PROJECTS</h6>
+                                <ul>
+                                    <li><a href="#">Popular</a></li>
+                                    <li><a href="#">Gratics</a></li>
+                                    <li><a href="#">Line Items</a></li>
+                                    <li><a href="#">Gratics</a></li>
+                                    <li><a href="#">Line Items</a></li>
+                                    <li><a href="#">Gratics</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="footerWrapper">
+                                <div class="topFWrap">
                                     <h6>PROJECTS</h6>
                                     <ul>
-                                        <li><a href="#">Popular</a></li>
-                                        <li><a href="#">Gratics</a></li>
-                                        <li><a href="#">Line Items</a></li>
-                                        <li><a href="#">Gratics</a></li>
-                                        <li><a href="#">Line Items</a></li>
-                                        <li><a href="#">Gratics</a></li>
+                                        <li><a href="#"> Contact us</a></li>
+                                        <li><a href="#">Request a Quote</a></li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="footerWrapper">
-                                    <div class="topFWrap">
-                                        <h6>PROJECTS</h6>
-                                        <ul>
-                                            <li><a href="#"> Contact us</a></li>
-                                            <li><a href="#">Request a Quote</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="botFWrap">
-                                        <h6>SUBSCRIBE </h6>
-                                        <input type="email" name="email" placeholder="Your e-mail">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footerLower">
-                        <div class="copyrightContent">
-                            <p>© 2019 Old Virtinia. All Rights Reserved.</p>
-                            <p>OldVirginia s is your number one source for 100% authentic Virginia Constructions</p>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <figure>
-                                    <img src="images/logo_text.svg" alt="logo">
-                                </figure>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="bottomNav">
-                                    <ul class="footerUl">
-                                        <li><a href="#">home</a></li>
-                                        <li><a href="#">reviews</a></li>
-                                        <li><a href="#">about</a></li>
-                                        <li><a href="#">contact us</a></li>
-                                        <li><a href="#">blog</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="socialMedia">
-                                    <ul class="socialUL">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                    </ul>
+                                <div class="botFWrap">
+                                    <h6>SUBSCRIBE </h6>
+                                    <p>Enter you email to get news and notifications about.</p>
+                                    <input type="email" name="email" placeholder="Your e-mail">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="footerLower">
+                    <div class="copyrightContent">
+                        <p>© 2019 Old Virtinia. All Rights Reserved.</p>
+                        <p>OldVirginia s is your number one source for 100% authentic Virginia Constructions</p>
+                    </div>
+                    <div class="row lowerFooterRow">
+                        <div class="col-md-3">
+                            <figure class="footerLogo">
+                                <img src="images/footerLogo.png" alt="logo">
+                            </figure>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bottomNav">
+                                <ul class="footerUl">
+                                    <li><a href="#">home</a></li>
+                                    <li><a href="#">reviews</a></li>
+                                    <li><a href="#">about</a></li>
+                                    <li><a href="#">contact us</a></li>
+                                    <li><a href="#">blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="socialMedia">
+                                <ul class="socialUL">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </footer>
+        </div>
+    </footer>
     </div>
     <script src="js/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.carousel').slick({
+            slidesToShow: 3,
+            centerMode: true,
+            nextArrow: '<i class="fa fa-arrow-right rightArrowSlick"></i>',
+            prevArrow: '<i class="fa fa-arrow-left leftArrowSlick"></i>',
+        });
+    });
+    </script>
 </body>
 
 </html>
