@@ -953,6 +953,7 @@ textarea:focus::-webkit-input-placeholder {
     width: 209px;
     color: #fff;
     line-height: 50px;
+    cursor: pointer;
 }
 
 .sendBtn i {
@@ -1339,3 +1340,11 @@ textarea:focus::-webkit-input-placeholder {
 .mainCarousal .slick-center{
 	opacity: 1 !important;
 }
+/******************************************
+*********BLOG PAGE*/
+.blogWhiteSection{
+	padding-top: 80px;
+}
+
+/*******************************************
+**************RESPONSIVE DESIGN */
