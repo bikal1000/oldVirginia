@@ -390,9 +390,10 @@ p{
 	padding-left: 8px;
 }
 .headerContact strong{
-	font-size: 16px;
-	font-weight: 600;
-	color: #524441;
+	font-size: 21px;
+    font-weight: 500;
+    color: #524441;
+    padding-left: 28px;
 }
 .nav-menu li{
 	font-weight: 400;
@@ -443,15 +444,21 @@ p{
 	color: #fff;
 }
 .secnav-menu li i{
-	color: #f89422
+	color: #f89422;
+	padding-left:10px;
+}
+.secnav-menu li a:hover{
+	padding-bottom: 31px;
+	border-bottom: 3px solid var(--orange);
 }
 .navigationContent{
 	display: flex;
 	justify-content: space-between;
 	padding: 20px 0;
 }
-.homeIcon{
-	color: var(--orange);
+.homeIcon i{
+	color: var(--orange) !important;
+	font-size: 20px;
 }
 .homeBannerContainer{
 	border-top: 1px solid #fff;
@@ -476,6 +483,9 @@ p{
 }
 .selfBtn i{
 	padding-left: 60px;
+}
+.homeBannerContainer h1{
+	padding-bottom: 10px;
 }
 
 /****************************************
@@ -525,17 +535,18 @@ p{
 .buldImage img{
 	object-fit: cover;
 	object-position: center;
-	max-height: 650px;
-    width: 556px;
+	height: 598px;
+    width: 100%;
 }
 .singleImageSection{
 	padding-top: 143px;
+	padding-left: 59px;
 }
 .singleImage img{
 	object-position: center;
 	object-fit: cover;
-	max-height: 343px;
-	width:570px;
+	height: 343px;
+	width:100%;
 }
 /*.singleImageContainer{
 	max-width: 1029px;
@@ -1013,4 +1024,68 @@ textarea:focus::-webkit-input-placeholder {
 }
 .oldVirginiaSection a i{
 	padding-left: 10px;
+}
+/*********************************
+*********PORTFOLIO SECTION*/
+.portfolioWhiteSection{
+	padding-top: 40px;
+}
+.portfolioWhiteSection{
+	padding-right:20px;
+	padding-left: 50px;
+}
+.portBannerContainer{
+	padding: 50px 0; 
+}
+.portHomebanner{
+	min-height: 0;
+}
+.portWhiteText span{
+	font-weight: 400;
+	font-size: 18px;
+	padding-bottom: 15px;
+	display: block;
+}
+.portWhiteText h2{
+ padding-bottom: 15px;
+}
+.doubleImageContainer{
+	max-width: 1080px;
+  box-shadow: 0px 23px 133px 0px rgba(25, 32, 39, 0.39);
+}
+.portTestimponial{
+	padding-top: 90px;
+}
+.portHomeImg img{
+	object-position: top;
+}
+.portTabSection{
+	padding-top: 40px;
+}
+.portTabsBtn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 400;
+	font-family: 'BrownStd';
+	color: #766c5d;
+}
+.portTabsBtn li:not(:first-child){
+	padding-left: 25px;
+}
+.portTabsBtn li.active a{
+	color: var(--orange);
+	background: #f4daca;
+}
+.portTabsBtn li a{
+	padding: 15px 10px;
+}
+.portTabsBtn li a:hover{
+	color: none;
+}
+.portfolioWhiteSection:not(:first-child){
+	padding-top: 90px;
+}
+.portBuildImg{
+  box-shadow: 0px 23px 133px 0px rgba(25, 32, 39, 0.39);
 }

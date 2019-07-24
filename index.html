@@ -19,7 +19,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <figure class="companyLogo">
-                           <a href="index.html"><img src="images/logo_text.svg" alt="Company Logo"></a>
+                            <a href="index.html"><img src="images/logo_text.svg" alt="Company Logo"></a>
                         </figure>
                     </div>
                     <div class="col-md-3">
@@ -68,7 +68,7 @@
                             <!-- Navbar links -->
                             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                                 <ul class="navbar-nav  secnav-menu">
-                                    <span class="homeIcon"><i class="fas fa-home"></i></span>
+                                    <li> <a href="index.html" class="homeIcon"><i class="fas fa-home"></i></a></li>
                                     <li><a href="#">DECS <i class="fas fa-caret-down"></i></a>
                                         <ul class="subMenu">
                                             <li><a href="#"></a> </li>
@@ -149,7 +149,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 pr-0">
                             <div class="whiteImageSection">
                                 <figure class="buldImage">
                                     <img src="images/building1.png" alt="building">
@@ -519,16 +519,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script>
-    $(document).ready(function() {
-        $('.carousel').slick({
-            slidesToShow: 3,
-            centerMode: true,
-            nextArrow: '<i class="fa fa-arrow-right rightArrowSlick"></i>',
-            prevArrow: '<i class="fa fa-arrow-left leftArrowSlick"></i>',
-        });
-    });
-    </script>
+    <script src="js/self.js"></script>
 </body>
 
 </html>
