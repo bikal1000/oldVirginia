@@ -407,6 +407,10 @@ label {
     padding: 30px 0;
 }
 
+.headerRow {
+    align-items: center;
+}
+
 .companyLogo img {
     max-width: 228px;
     max-height: 77px;
@@ -439,6 +443,7 @@ label {
 .nav-menu li {
     font-weight: 400;
     color: var(--Tgrey);
+    font-size: 16px;
 }
 
 .nav-menu li:not(:first-child) {
@@ -469,6 +474,7 @@ label {
 }
 
 .secnav-menu {
+    display: flex;
     width: 100%;
     flex: 0 0 100%;
 }
@@ -476,12 +482,15 @@ label {
 .secnav-menu>li {
     padding: 20px 0;
 }
+
 .subMenu li {
-	padding: 5px 0;
+    padding: 5px 0;
 }
+
 .subMenu li:hover {
- 	color: var(--orange); 
+    color: var(--orange);
 }
+
 .secnav-menu>li,
 .subMenu li {
     font-size: 16px;
@@ -490,10 +499,11 @@ label {
     position: relative;
     cursor: pointer;
 }
+
 .secnav-menu>li:after {
     content: "";
     position: absolute;
-    bottom: -2px;
+    bottom: -8px;
     left: 0;
     right: 0;
     padding-top: 20px;
@@ -511,7 +521,7 @@ label {
     top: 100%;
     left: 0;
     padding: 10px 20px;
-    margin-top: 2px;
+    margin-top: 8px;
     color: var(--Tgrey);
 }
 
@@ -548,10 +558,12 @@ label {
     color: var(--orange) !important;
     font-size: 20px;
 }
-.searchSection{
-	display: flex;
-	align-items: center;
+
+.searchSection {
+    display: flex;
+    align-items: center;
 }
+
 /****************************************
 ****************HOME BANENER SECTION*/
 .homeBannerSection {
@@ -641,7 +653,7 @@ label {
 }
 
 .whiteTextContent {
-    padding: 73px 73px 0 73px;
+    padding: 73px;
 }
 
 .whiteTextContent h3 {
@@ -682,9 +694,10 @@ label {
     width: 100%;
 }
 
-/*.singleImageContainer{
-	max-width: 1029px;
-}*/
+.singleImageContainer {
+    box-shadow: 0px 23px 133px 0px rgba(25, 32, 39, 0.39);
+}
+
 /*****************************
 ********BROWN SECTION*/
 .brownSection {
@@ -733,10 +746,6 @@ label {
     font-weight: 300;
 }
 
-.mytab_btn li a:hover {
-    color: #bca193;
-}
-
 .mytab_btn li.active {
     color: var(--orange);
     font-weight: 500;
@@ -758,7 +767,6 @@ label {
     width: 100%;
     object-position: center;
     object-fit: cover;
-    max-height: 422px;
 }
 
 .galaryImage img {
@@ -1115,9 +1123,9 @@ textarea:focus::-webkit-input-placeholder {
     border: 1px solid #352217;
     height: 35px;
     width: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
     cursor: pointer;
 }
 
@@ -1326,25 +1334,450 @@ textarea:focus::-webkit-input-placeholder {
     padding-top: 90px;
 }
 
-.portBuildImg {
+.portBuildImg,
+.buldImage {
     box-shadow: 0px 23px 133px 0px rgba(25, 32, 39, 0.39);
 }
-.mainCarousal{
-	margin-left: -150px;
-	margin-right: -150px;
+
+.mainCarousal {
+    margin-left: -150px;
+    margin-right: -150px;
 }
+
 .mainCarousal .slick-slide {
-	opacity: 0.5 !important;
-	transition: all 0.2s;
+    opacity: 0.5 !important;
+    transition: all 0.2s;
 }
-.mainCarousal .slick-center{
-	opacity: 1 !important;
+
+.mainCarousal .slick-center {
+    opacity: 1 !important;
 }
+
 /******************************************
 *********BLOG PAGE*/
-.blogWhiteSection{
-	padding-top: 80px;
+.blogWhiteSection {
+    padding-top: 80px;
 }
 
 /*******************************************
 **************RESPONSIVE DESIGN */
+@media(max-width: 1199px) {
+    .nav-menu li {
+        font-size: 14px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+     .gallerySection .container > .row >div:nth-child(1){
+    	align-self: flex-end;
+    }
+}
+
+@media(max-width: 991px) {
+
+    .secnav-menu>li,
+    .subMenu li {
+        font-size: 13px;
+    }
+
+    .secnav-menu>li:not(:first-child) {
+        margin-left: 18px;
+    }
+
+    .headerContact strong {
+        font-size: 15px;
+    }
+
+    .headerContact {
+        width: 180px;
+    }
+
+    .searchIcon {
+        font-size: 16px;
+    }
+
+    .homeBannerContainer span {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    h2,
+    .contactTextWrap h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .nvcContent p {
+        font-size: 16px;
+    }
+
+    .whiteTextContent p,
+    .orangeContent h6,
+    .footerWrapper h6 {
+        font-size: 15px;
+    }
+
+    .buldImage img {
+        height: 542px;
+    }
+
+    .singleImageSection {
+        padding-top: 87px;
+    }
+
+    .brownTopPart p,
+    .featureContent p,
+    .pjRightWrapper p,
+    .testimonialText p,
+    .contactTextWrap p,
+    .footerWrapper li {
+        font-size: 14px;
+    }
+
+    .mytab_btn li {
+        font-size: 20px;
+    }
+
+    .mytab_btn li span {
+        width: 60px;
+    }
+
+    .pjRightWrapper span {
+        font-size: 12px;
+    }
+
+    .tesName,
+    .tesPost {
+        font-size: 12px;
+    }
+
+    .leftArrowSlick {
+        left: 44%;
+    }
+
+    .orangeContent span,
+    .footerUl li {
+        font-size: 13px;
+    }
+
+    .footerUl li:after {
+        right: -24px;
+    }
+
+    .whiteTextContent {
+        padding: 38px;
+    }
+
+    .brownSectionContents {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contactTextWrap {
+        padding-right: 0;
+    }
+
+    .contactContents {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 50px;
+    }
+
+    .testimonialContent {
+        padding: 63px 30px 40px 50px;
+    }
+    .gallerySection h2 {
+    	padding-bottom: 30px;
+    }
+
+}
+
+@media(max-width: 767px) {
+    .nav-menu li i {
+        display: none;
+    }
+
+    .collapse.in {
+        display: block;
+    }
+
+    .navbar-toggler:focus {
+        outline: unset;
+    }
+
+    .hamspan {
+        display: block;
+        height: 2px;
+        width: 20px;
+        background: var(--orange);
+        margin-top: 2px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .navbar-collapse {
+        background: #fff;
+        padding-top: 10px;
+    }
+
+    .singleImage {
+        display: none;
+    }
+
+    .whiteContainer {
+        height: auto;
+        max-height: 100%;
+    }
+
+    .whiteContainer .row {
+        flex-direction: column-reverse;
+    }
+
+    .whiteImageSection {
+        padding-top: 15px;
+        padding-right: 15px;
+    }
+
+    .singleImageSection {
+        padding-top: 20px;
+    }
+
+    .portfolioWhiteSection {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contactSection {
+        padding-right: 0;
+    }
+
+    .buldImage img {
+        height: auto;
+    }
+
+    .brownSectionContents {
+        padding: 50px 0 90px;
+    }
+
+    .featureContent {
+        padding-top: 50px;
+    }
+
+    .contactTextWrap {
+        padding-bottom: 40px;
+    }
+
+    .orangeContent {
+        padding-bottom: 15px;
+    }
+
+    .footerUl li:after {
+        display: none;
+    }
+
+    .footerWrapper {
+        text-align: center;
+    }
+
+    .nav-menu li {
+        padding-top: 5px;
+    }
+
+    .nav-menu {
+        border-radius: 5px;
+        background: var(--Bgrey);
+        padding: 10px 20px;
+    }
+
+    .nav-menu li:not(:first-child) {
+        padding-left: 0;
+    }
+
+    #collapsibleNavbar {
+        position: absolute;
+        width: 200px;
+        top: 100%;
+        right: 0px;
+        z-index: 99;
+        border-radius: 5px;
+    }
+
+    .headerContact {
+        width: unset;
+    }
+
+    .brownSection {
+        margin-top: 0;
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .testimonialContent {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+
+    .testimpnialImg img {
+        left: -5px;
+    }
+    .gallerySection .container > .row >div:nth-child(1){
+    	display: none;
+    }
+      .gallerySection .container > .row >div:nth-child(2){
+      	width: 100%;
+      	flex:0 0 100%;
+      	max-width: 100%;
+    }
+        #collapsibleNavbar1{
+   	position: absolute;
+    width: 300px;
+    top: 100%;
+    z-index: 99;
+    border-radius: 5px;
+   	color: var(--Tgrey);
+    }
+
+    .subMenu{
+   	position: static;
+    display: block;
+    background: #fff;
+    font-size: 13px;
+    }
+    .searchSection{
+    	margin-right: 28px;
+    }
+    #navbar1{
+    padding-left: 0;
+    margin-left: -10px;
+    }
+    .homeIcon{
+    	padding-left: 25px;
+    }
+    .navbar-collapse{
+    	padding-top: 0;
+    }
+        #navbar button{
+    	display: block;
+    	margin-left: auto;
+    }
+}
+
+@media(max-width: 575px) {
+
+    .companyLogo,
+    .footerLogo {
+        text-align: center;
+    }
+
+    .headerContact {
+        margin: 0 auto;
+        padding-top: 15px;
+    }
+
+    .footerLogo,
+    .footerUl {
+        padding-bottom: 20px;
+    }
+
+    .socialUL {
+        justify-content: center;
+    }
+
+    .leftArrowSlick {
+        left: 34%;
+    }
+
+    .homeBannerContainer {
+        padding: 90px 0;
+    }
+
+    .homeBannerSection {
+        min-height: 10vh;
+    }
+
+    .secnav-menu {
+        flex-wrap: wrap;
+        background: #fff
+        border: 1px solid #ddd;
+    }
+
+    .testimonialSection h2 {
+        padding-bottom: 75px;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+    .secnav-menu > li{
+    	padding:10px 0;
+    }
+
+    .mainCarousal {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .selfBtn{
+    	width: 219px;
+    	line-height: 46px;
+    }
+    .sendUpBtn{
+    	width: 150px;
+    }
+    .selfBtn i{
+    	padding-left: 40px;
+    }
+
+    .headerContact{
+    	display: none;
+    }
+    .headerRow{
+    	flex-wrap: nowrap;
+    }
+
+
+}
+
+@media(max-width: 480px) {
+    .portTabsBtn li {
+        font-size: 12px;
+    }
+
+    .portTabsBtn li:not(:first-child) {
+        padding-left: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2,
+    .contactTextWrap h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+    .testimonialText span{
+    	font-size: 60px;
+    	top: 13px;
+    }
+    .testimonialSection{
+    	padding: 30px 0 40px 0;
+    }
+
+}
